@@ -56,6 +56,6 @@ def plot_metric(data, metric, target_id, time_unit="minutes"):
     plt.show()
 
 plot_metric(json_data, 'acc_mem_used', target_id="4")
-plot_metric(json_data, 'acc_mem_used', target_id="5")
-plot_metric(json_data, 'acc_mem_used', target_id="6")
-plot_metric(json_data, 'acc_mem_used', target_id="7")
+plot_metric(json_data, 'acc_temp', target_id="5")
+plot_metric(json_data, 'acc_power', target_id="6")
+plot_metric(json_data, 'acc_used', target_id="7")
